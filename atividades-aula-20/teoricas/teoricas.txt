@@ -1,0 +1,100 @@
+1. Explique a diferença entre uma API e um endpoint.
+
+A API é um conjunto de regras e definições que permite a comunicação entre o sistema. O endpoint é o endereço especifico dentro da API que responde a uma funcionalidade.
+
+2. Cite exemplos de quando usar GET, POST, PUT, PATCH e DELETE em uma API.
+
+GET - Listar usuários
+POST - Criar algum tipo de informação
+PUT - Atualizar de forma geral
+PATCH - Atualizar parcialmente
+DELETE - Excluir algo
+
+3. Qual a função dos headers em uma requisição HTTP? Dê dois exemplos.
+
+Definir o conteúdo da requisição, eles carregam informações adicionais que ajuda na comunicação do úsuario com o servidor.
+
+Ex1 - Content-Type: application/json - Informa dados enviados.
+Ex2 - Authorization: Bearer <token> - Envie credenciais de autenticação.
+
+4. Diferencie query params, params de rota e body em uma requisição.
+
+Query Params - Dados enviados pela URL
+Params de Rota - Parte fixa da rota
+Body - Dados enviados no corpo da requisição (POST, PUT, PATCH)
+
+5. Explique com suas palavras a importância do Postman no desenvolvimento e testes de
+APIs.
+
+Ele é como uma caixa de ferramentas para API. Ele facilita o teste, a validação e a documenteção de endpoints, permitindo enviar requisições, analisar respostas e simular cenários sem precisa de códigos.
+
+6. Explique com suas palavras quem é o request (quem faz a requisição) e quem é o
+response (quem envia a resposta).
+
+Request - Cliente
+Response - Servidor
+
+7. Defina os conceitos de classe e objeto em POO e dê um exemplo fora do contexto de
+programação.
+
+Classe - Molde ou Modelo
+Objeto - Instância concreta desse molde
+
+Exemplo: Classe = "Carro". Objeto = "Meu carro vermelho modelo X"
+
+8. Explique a diferença entre atributo e método em uma classe.
+
+Atributo - Características (cor, tamanho)
+Método - Comportamentos/Ações (acelerar, frear)
+
+9. O que é o encapsulamento em POO e por que ele é importante?
+
+É o ato de proteger os dados de uma classe, controlando o acesso a eles.
+
+Public - Acesso livre, qualquer parte do código pode usar.
+
+Protected - Acesso restrito à própia classe e às classes filhas.
+
+Private - Acesso restrito apenas à própria classe.
+
+10. Explique a função dos getters e setters e quando devemos usá-los.
+
+Getters - Permitem ler atributos de forma controlada.
+
+Setters - Permitem alterar atributos de forma controlada.
+
+Devemos usá-los quando precisamos validar ou proteger os dados antes de acessá-los/modificá-los.
+
+11. Explique o papel do Express.js quando usamos Node.js + MySQL em um projeto.
+
+Ele é um framework que facilita a criação de rotas, middlewares e controle de requisições e respostas no backend.
+
+12. Quais são os benefícios de separar as camadas do back-end em rotas, controladores e
+modelos?
+
+Rotas - Organizam o endpoint
+Controladores - Contém as regras de negócio
+Modelos - Comunicação com o banco de dados
+
+13. O que é um middleware no Express.js?
+
+É uma função intermediaria que processa a requisição antes da resposta final.
+
+14. Por que é importante centralizar o tratamento de erros em uma aplicação?
+
+Para padronizar as mensagens, facilitar manutenção no código e melhorar a experiência do úsuario com respostas consistentes.
+
+15. Diferencie o uso de try/catch local e o uso de um middleware de erro global.
+
+try/catch local - Usado em blocos especificos do código
+middleware de erro global - Captura erros de toda aplicação garantindo trabaho centralizado
+
+16. O que é um ORM e por que usá-lo em vez de escrever queries SQL manuais?
+
+Object Relational Mape, é uma ferramenta que permite interagir com o banco de dados usando objetos no lugar de SQL puro.
+
+17. Cite três vantagens do uso do Sequelize.
+
+1 - Facilita a criação de manipulação de tabelas sem precisar escrever SQL manual.
+2 - Suporte a migração de dados.
+3 - Funciona em vários bancos, dando flexibilidade.
